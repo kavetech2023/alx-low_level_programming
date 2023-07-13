@@ -1,5 +1,4 @@
 #include <stdio.h>
-:wq
 
 int main(void)
 {
