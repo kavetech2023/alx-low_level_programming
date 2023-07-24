@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
  * print_array - function that prints n elements of an array of integers,
  * followed by a new line.
@@ -8,7 +7,6 @@
  *
  *
  */
-
 void print_array(int *a, int n)
 {
 	int index;
