@@ -1,13 +1,13 @@
-#include "1-pi.h"
 #include <stdio.h>
 
 /**
- * main - check the code for Holberton School students.
+ * main - prints the name of the file
  *
- * Return: Always 0.
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
 	printf("%s\n", __FILE__);
 	return (0);
 }
+
