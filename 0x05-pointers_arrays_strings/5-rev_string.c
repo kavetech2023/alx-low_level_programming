@@ -1,23 +1,23 @@
 #include "main.h"
 
 /**
- * rev_string - This fuction print a string reverser
- *
- *@s: this is the pointer that point to a string
+ * rev_string - print a string to stdout.. in reverse
+ * @str: the address of the string.
  */
-
-void rev_string(char *S)
+void rev_string(char *str)
 {
-	int len = 0, index = 0;
-	char tmp;
+	int i, lastIndexValue;
+	int cursor = 0;
 
-	while (S[index++])
-	len++;
-
-	for (index = len -1; index >= len / 2; index--)
+	while (*(str + cursor) != 0)
 	{
-	tmp = S[index];
-        S[index] = S[len - index -1];
-        S[len -index - 1] = tmp;
-        }
-}	
+		cursor++;
+	}
+
+	for (i = 0; i < cursor; i++)
+	{
+		lastIndexValue = *(str + (--cursor));
+		*(str + cursor) = *(str + i);
+		*(str + i) = lastIndexValue;
+	}
+}
