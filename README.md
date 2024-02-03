@@ -12,3 +12,9 @@ Welcome to my repository showcasing the exploration of the fascinating world of 
 
 * Basic programming knowledge of C Programming Language.
 * Interest in understanding how computers work at their core
+
+<h2>Additional Information:</h2>
+
+* __Author:__ Kevin Kavete
+* __License:__
+* __Dependencies:__
