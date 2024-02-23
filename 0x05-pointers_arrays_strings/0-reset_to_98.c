@@ -2,7 +2,7 @@
 
 /**
  * reset_to_98 - change the value at a given address.
- * @n: pointer to reassign.
+ * @n: The pointer to reassign.
  */
 void reset_to_98(int *n)
 {
